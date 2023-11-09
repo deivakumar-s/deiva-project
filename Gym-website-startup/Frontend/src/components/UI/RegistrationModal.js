@@ -22,20 +22,20 @@ const RegistrationModal = ({ onClose, isOpen }) => {
     e.preventDefault();
     
     try {
-      // Make a POST request to your server
+     
       const response = await axios.post('/api/submit-form', formData);
 
       if (response.status === 200) {
-        // Form submitted successfully
+       
         setIsFormSubmitted(true);
 
-        // Automatically close the modal after 3 seconds
+        
         setTimeout(() => {
           setIsFormSubmitted(false);
           onClose();
         }, 3000);
       } else {
-        // Handle errors here
+      
       }
     } catch (error) {
       // Handle network or server errors
@@ -45,7 +45,7 @@ const RegistrationModal = ({ onClose, isOpen }) => {
 
   useEffect(() => {
     if (isFormSubmitted) {
-      // Automatically close the modal after 3 seconds
+      
       setTimeout(() => {
         setIsFormSubmitted(false);
         onClose();
