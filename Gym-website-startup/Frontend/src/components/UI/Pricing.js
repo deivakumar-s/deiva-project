@@ -43,7 +43,7 @@ const Pricing = () => {
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>personalixed workout programs </li>
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>5 classes per week</li>
                     </ul>
-                    {/* <button className="register_btn">Join now</button> */}
+                 
                 </div>
             </div>
             <div className="pricing_item pricing_item-03" data-aos='fade-up'   data-aos-duration='1500'>
