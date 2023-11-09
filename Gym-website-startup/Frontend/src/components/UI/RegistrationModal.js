@@ -39,7 +39,7 @@ const RegistrationModal = ({ onClose, isOpen }) => {
       }
     } catch (error) {
       // Handle network or server errors
-      console.error(error);
+      console.error("Error while submitting the form:",error);
     }
   };
 

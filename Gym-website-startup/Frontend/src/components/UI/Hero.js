@@ -1,14 +1,9 @@
 import React from 'react';
-// import {useNavigate} from 'react-router-dom';
 import heroImg from '../../assets/img/gym-02.png'
 import dumbleIcon from '../../assets/img/dumble.png'
 import '../../styles/Hero.css';
 
 const Hero = () => {
-    // const navigate = useNavigate('');
-    // const handleGetStarted = () =>{
-    //    navigate.push('/registration')
-    // }
   return (
     <section  id='home'>
         <div className="container">

@@ -15,7 +15,7 @@ const Start = () => {
                     Ready to make a <span className="highlights">change?</span>
                 </h2>
                 <p>A flexible body promotes better posture and allows for a wider range of motion,contributing to overall physical well-being. Absolutely , you are all to make positive changes in my fitness and well-being by committing to a consistent gym routine </p>
-                <button className="register_btn">Get Started</button>
+                {/* <button className="register_btn">Get Started</button> */}
             </div>
         </div>
     </div>

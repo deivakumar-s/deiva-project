@@ -1,4 +1,4 @@
-import React, { useRef, useEffect,useState } from 'react';
+import React, { useRef,useEffect,useState } from 'react';
 import '../../styles/Header.css';
 import logo from '../../assets/img/dumble.png';
 
@@ -25,7 +25,8 @@ const nav_links = [
 
 const Header = () => {
   const headerRef = useRef(null);
-  const [isRegistrationOpen,setIsRegistrationOpen]=useState(false);
+
+  const[isRegistrationOpen,setIsRegistrationOpen]=useState(false);
   const openRegistrationForm = ()=>{
     setIsRegistrationOpen(true);
   };
@@ -52,13 +53,13 @@ const Header = () => {
     const location = document.querySelector(targetAttr).offsetTop;
 
     if (targetAttr === '#') {
-      // Scroll to the top of the page (header) without the offset
+      
       window.scrollTo({
         left: 0,
         top: location,
       });
     } else {
-      // For other links, scroll with the offset
+    
       window.scrollTo({
         left: 0,
         top: location - 80,
@@ -67,7 +68,7 @@ const Header = () => {
   };
 
   return (
-    <header className='header'  ref={headerRef}>
+    <header className='header'  >
       <div className="container">
         <div className="nav_wrapper">
           <div className="logo">
