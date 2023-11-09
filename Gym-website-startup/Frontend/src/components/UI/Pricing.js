@@ -25,7 +25,7 @@ const Pricing = () => {
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>standard options</li>
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>No additional perks or privileges</li>
                     </ul>
-                    {/* <button className="register_btn">Join now</button> */}
+                   
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ const Pricing = () => {
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>standard options</li>
                         <li><span><i class="ri-checkbox-blank-circle-fill"></i></span>No access to premium services</li>
                     </ul>
-                    {/* <button className="register_btn">Join now</button> */}
+                
                 </div>
             </div>
         </div>
